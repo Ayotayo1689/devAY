@@ -462,13 +462,13 @@ section {
 }
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.789);
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.4s;
   z-index: 2;
   opacity: 0;
 }
@@ -488,11 +488,12 @@ section {
   font-size: 28px;
   text-align: center;
   background: linear-gradient(90deg, #173e66, #010347,  #2f0247,#6b016b);
-  transition: 0.3s;
+  transition: all ease-in-out 0.4s;
   width: 50%;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background:#1083f6;
+  transition: all ease-in-out 0.4s;
 }
 .portfolio .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #37b3ed;
@@ -531,6 +532,7 @@ section {
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
+  transition: all ease-in-out 0.4s;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
